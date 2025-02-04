@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Pensionsberegner</title>
 </head>
+<link rel="stylesheet" href="js/script01.js">
 <body>
   <div class="container">
     <h1>Pensionsberegner</h1>
@@ -18,7 +19,7 @@
     <form id="pensionForm">
       <label for="birthdate">Indtast din fødselsdato:</label>
       <input type="date" id="birthdate" required>
-      <button type="button" onclick="">Find din pensionsalder</button>
+      <button type="button" onclick="calculatePension()">Find din pensionsalder</button>
     </form>
     <p id="result"></p>
     <div class="row bottom-images">
